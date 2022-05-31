@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial;
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
 
 .row {
@@ -13,23 +13,26 @@
 }
 
 .wrapper {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: green;
     box-sizing: border-box;
-    border: 4px solid black;
 }
 
+/* SHAPES START */
 .banner {
     width: 100%;
     height: 55px;
     background-color: olive;
-    box-sizing: border-box;
     border-bottom: 4px solid black;
 }
 
-.shapes {
+#shapes {
     padding: 10px;
+}
+
+.shape {
+    border: 4px solid black;
 }
 
 .rhombus-border {
@@ -54,23 +57,21 @@
     width: 100px;
     height: 10px;
     background-color: blue;
-    border: 4px solid black;
 }
 
 .oval {
     width: 90px;
     height: 80px;
     background-color: teal;
-    border: 4px solid black;
     border-radius: 50%;
 }
 
 .rectangle {
-    width: 140px;
-    height: 290px;
+    width: 150px;
+    height: 280px;
     background-color: blue;
-    border: 4px solid black;
     margin-left: 50px;
     padding-top: 30px;
     text-align: center;
 }
+/* SHAPES END */
