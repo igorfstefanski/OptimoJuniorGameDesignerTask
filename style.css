@@ -5,11 +5,8 @@
     font-size: 1.15em;
 }
 
-.row {
-    display: flex;
-    margin-bottom: 10px;
-    align-items: center;
-    gap: 30px;
+.shape {
+    border: 4px solid black;
 }
 
 .wrapper {
@@ -17,6 +14,13 @@
     height: 100vh;
     background-color: green;
     box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 30px;
 }
 
 /* SHAPES START */
@@ -29,10 +33,6 @@
 
 #shapes {
     padding: 10px;
-}
-
-.shape {
-    border: 4px solid black;
 }
 
 .rhombus-border {
