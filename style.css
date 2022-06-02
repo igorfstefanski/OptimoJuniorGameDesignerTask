@@ -24,6 +24,7 @@
     border-bottom: 4px solid black;
 }
 
+/* SHAPES START */
 #shapes {
     display: flex;
     flex-direction: column;
@@ -31,6 +32,7 @@
     padding: 10px;
 }
 
+/* LEFT COL START */
 #left-col {
     display: contents;
 }
@@ -76,15 +78,17 @@
     border-radius: 50%;
     background-color: teal;
 }
+/* LEFT COL END */
 
 .rectangle {
-    width: 180px;
-    height: 40vh;
+    width: 160px;
+    height: 35vh;
     background-color: blue;
     margin-left: 50px;
     padding-top: 30px;
     text-align: center;
 }
+/* SHAPES END */
 /* MOBILE VIEW END */
 
 /* FOR SCREEN WIDTH 583px - 900px */
