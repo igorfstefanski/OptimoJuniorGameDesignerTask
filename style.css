@@ -16,6 +16,7 @@
     box-sizing: border-box;
 }
 
+/* MOBILE VIEW START */
 .row {
     display: flex;
     margin-bottom: 10px;
@@ -68,10 +69,25 @@
 
 .rectangle {
     width: 150px;
-    height: 280px;
+    height: 290px;
     background-color: blue;
     margin-left: 50px;
     padding-top: 30px;
     text-align: center;
 }
 /* SHAPES END */
+/* MOBILE VIEW END */
+
+/* FOR SCREEN WIDTH 583px - 900px */
+@media only screen and (min-width: 583px) {
+    .rectangle {
+        background-color: #c83737;
+    }
+}
+
+/* FOR SCREEN WIDTH > 900px */
+@media only screen and (min-width: 901px) {
+    .rectangle {
+        background-color: white;
+    }
+}
