@@ -5,10 +5,6 @@
     font-size: 1.15em;
 }
 
-.shape {
-    border: 4px solid black;
-}
-
 .wrapper {
     width: 100vw;
     height: 100vh;
@@ -16,10 +12,13 @@
     box-sizing: border-box;
 }
 
+.shape {
+    border: 4px solid black;
+}
+
 /* MOBILE VIEW START */
 #left-col {
-    display: flex;
-    flex-direction: column;
+    display: contents;
 }
 
 .row {
@@ -80,8 +79,8 @@
 }
 
 .rectangle {
-    width: 150px;
-    height: 290px;
+    width: 180px;
+    height: 40vh;
     background-color: blue;
     margin-left: 50px;
     padding-top: 30px;
@@ -93,20 +92,19 @@
 /* FOR SCREEN WIDTH 583px - 900px */
 @media only screen and (min-width: 583px) {
     #shapes {
-        padding: 10px;
-        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        height: 93%;
+    }
+
+    #left-col {
+        display: flex;
+        flex-direction: column;
     }
 
     .rectangle {
         background-color: #c83737;
-        order: 1;
+        height: 80vh;
         align-self: center;
-    }
-
-    .row {
-        order: 2;
     }
 }
 
@@ -116,14 +114,12 @@
         background-color: white;
     }
 
-    #left-col {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
     .row {
-        padding-top: 20px;
-        margin: 0;
-        order: 1;
+        margin: 100px 0 0 0;
+        align-self: flex-start;
+    }
+    
+    #left-col {
+        display: contents;
     }
 }
